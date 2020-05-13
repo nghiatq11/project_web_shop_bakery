@@ -1,0 +1,9 @@
+#products .title {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.field-input {
+    margin: 5px 5px;
+}

@@ -1,0 +1,160 @@
+#products table {
+    text-align: center;
+}
+
+#products table .rowName {
+    background-color: rgba(249, 187, 73, 0.88);
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+#products table .rowName .productImg {
+    width: 40%;
+    padding-left: 5%;
+}
+
+#products table .rowName .productPrice {
+    width: 15%;
+}
+
+#products table .rowName .productQuantity {
+    width: 15%;
+}
+
+#products table .rowName .productTotal {
+    width: 15%;
+}
+
+#products table .rowName .productChoose {
+    width: 15%;
+}
+
+#products table .rowDetail {
+    width: 100px;
+    height: 100px;
+}
+
+#products table .rowDetail .rowDetailImg a:hover {
+    color: rgb(240, 142, 15)
+}
+
+#products table .rowDetail .rowDetailImg a {
+    text-decoration: none;
+    color: rgba(2, 1, 0, 0.88)
+}
+
+#products table .rowDetail .rowDetailImg .row {
+    align-items: center;
+}
+#products table .rowDetail a img {
+    width: 132px;
+    float: left;
+}
+
+#products table {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#products table th {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#products table td {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#products table .rowDetail td .quantityProduct {
+    width: 50px;
+}
+
+#products table .rowDetail .rowDetailChoose a {
+    color: black;
+    width: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px
+}
+
+#products table .rowDetail .rowDetailChoose a:hover {
+    border-radius: 40%;
+    color: aliceblue;
+    background-color: red;
+}
+
+#products table td input {
+    padding-left: 6px;
+    border-color: antiquewhite;
+}
+
+@media (max-width: 767px) {
+    #products table .rowDetail a img {
+        display: none
+    }
+}
+
+#products .continueToShopping {
+    text-align: center;
+    background-color: bisque;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 208px;
+    height: 50px;
+    transition: all 0.5s
+}
+
+#products .continueToShopping a {
+    color: black;
+    transition: all 0.5s;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#products .continueToShopping:hover {
+    background-color: rgba(249, 187, 73, 0.88)
+}
+
+#products .continueToShopping:hover a {
+    color: aliceblue;
+}
+
+#products .divCode,
+.divBill {
+    border: 1px solid rgb(206, 206, 206);
+}
+
+#products .divCode {
+    margin-right: 5%
+}
+
+@media (max-width: 991px) {
+    #products .divCode {
+        margin-bottom: 5%
+    }
+}
+
+#products .divCode .btnCheckCode {
+    cursor: pointer;
+    transition: all .4s ease 0s;
+}
+
+#products .divBill {
+    position: relative;
+}
+
+#products .divBill a {
+    text-decoration: none;
+}
+
+#products .divBill .checkOut {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(249, 187, 73, 0.88);
+    height: 50px;
+    margin-top: 5%;
+}
+
+#products .divBill .checkOut:hover {
+    background-color: rgb(240, 142, 15);
+}
